@@ -1,6 +1,6 @@
 {% set name = "munkres" %}
-{% set version = "1.0.12" %}
-{% set sha256 = "70b3b32b4fed3b354e5c42e4d1273880a33a13ab8c108a4247140eb661767a0b" %}
+{% set version = "1.1.1" %}
+{% set sha256 = "c2a0839eb1424ad9fe8cf60042c332d9d1e15e48d65eaa2a13271bdbccd6716f" %}
 
 package:
   name: {{ name|lower }}
