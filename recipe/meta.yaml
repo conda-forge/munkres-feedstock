@@ -1,6 +1,6 @@
 {% set name = "munkres" %}
-{% set version = "1.0.12" %}
-{% set sha256 = "70b3b32b4fed3b354e5c42e4d1273880a33a13ab8c108a4247140eb661767a0b" %}
+{% set version = "1.1.4" %}
+{% set sha256 = "6a297282895e4f7c27902bb5ad045d06458905daafb80a9ce14b9d87ca391205" %}
 
 package:
   name: {{ name|lower }}
@@ -38,9 +38,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE.md
-  summary: 'The Munkres module provides an O(n^3) implementation of the
-  Munkres algorithm (also called the Hungarian algorithm or the Kuhn-Munkres
-  algorithm).'
+  summary: The Munkres module provides an O(n^3) implementation of the Munkres algorithm (also called the Hungarian algorithm or the Kuhn-Munkres algorithm).
 
   description: |
     The Munkres module provides an O(n^3) implementation of the Munkres
