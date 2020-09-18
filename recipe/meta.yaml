@@ -27,9 +27,9 @@ test:
   source_files:
     - test/*
   requires:
-    - nose
+    - pytest
   commands:
-    - nosetests
+    - py.test
   imports:
     - munkres
 
