@@ -1,15 +1,12 @@
-{% set name = "munkres" %}
 {% set version = "1.1.4" %}
-{% set sha256 = "6a297282895e4f7c27902bb5ad045d06458905daafb80a9ce14b9d87ca391205" %}
 
 package:
-  name: {{ name|lower }}
+  name: munkres
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/bmc/{{ name }}/archive/release-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://github.com/bmc/munkres/archive/release-{{ version }}.tar.gz
+  sha256: 6a297282895e4f7c27902bb5ad045d06458905daafb80a9ce14b9d87ca391205
 
 build:
   noarch: python
